@@ -1,0 +1,1 @@
+Hypothasis: program will do ~N^2(1 + T) opperations. 

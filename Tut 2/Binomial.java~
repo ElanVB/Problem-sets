@@ -1,0 +1,24 @@
+public class Binomial
+{
+  public static double binomial(int N, int k, double p)
+  {
+    double result = 0;
+    int counter = 0;
+    while(counter != N)
+    {
+      result += reducedBinFormula();
+      counter++;
+    }
+    return result;
+    }
+public static int factorial(int n)
+{
+  if(n == 1) return 1;
+  return n*factorial(n-1);
+}
+
+  public static void main(String[] args)
+  {
+    double answer = binomial(Integer.parseInt(args[0]), 0, Double.parseDouble(args[1])):
+  }
+}

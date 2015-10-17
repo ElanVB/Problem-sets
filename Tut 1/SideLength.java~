@@ -1,0 +1,7 @@
+public class SideLength
+{
+  public static void main(float[] args)
+  {
+    
+  }
+}

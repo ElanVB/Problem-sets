@@ -1,0 +1,25 @@
+public class Peaks
+{
+  public static void main(String[] args)
+  {
+    
+  }
+  
+  private static int countFileRows(String filename)
+  {
+    int rows = 0;
+    
+    Scanner fileScanner = new Scanner(File filename));
+    
+    while(fileScanner.hasNext
+    
+    return rows;
+  }
+  
+  private static int countFileCols(String filename)
+  {
+    int cols = 0;
+    
+    return cols;
+  }
+}

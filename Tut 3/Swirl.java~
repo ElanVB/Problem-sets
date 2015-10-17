@@ -1,0 +1,36 @@
+public class Swirl
+{
+  public static void main(String[] args)
+  {
+    swirlImage(args[0]);
+  }
+  
+  private static void swirlImgae(String fileName)
+  {
+    theataScale = Math.PI/ (double) 256;
+    
+    Picture input = new Picture (fileName);
+    Picture output = new Picture (input.width(), input.height());
+    
+    int xC = input.width()/2, yC = input.heigth()/2;
+    
+    for(int i = 0; i < input.width(); i++)
+    {
+      for(int j = 0; j < input.height(); j++)
+      {
+        Color temp = input.get(i, j);
+        int x, y;
+        
+        x = (i - xC) * Math.cos(theataScale*calcDist(i, j, xC, yC)) - (j - yC)*Math.sin(theataScale*calcDist(i, j, xC, yC)) + xC;
+        y = (i - xC) * Math.sin(theataScale*calcDist(i, j, xC, yC)) + (j - yC)*Math.cos(theataScale*calcDist(i, j, xC, yC)) + yC;
+        
+        output.set(x, y, temp);
+      }
+    }
+  }
+  
+  private static int calcDist(int x, int y, int cX, int cY)
+  {
+    return (int) Math.sqrt(Math.pow(x - cX, 2) + Math.pow(y - cY, 2));
+  }
+}

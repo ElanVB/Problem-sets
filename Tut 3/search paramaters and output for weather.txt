@@ -1,0 +1,33 @@
+<div align="center">Outside Temperature:<br>
+            <span class="style6"><span id="temperature">24°C</span></span><br>
+            <span class="style7">Min: <span id="minTemp">12.77°C at 04:10</span></span><br>
+            <span class="style8">Max: <span id="maxTemp">32.94°C at 15:23</span></span>
+	</div>
+
+"-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+  <META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE">
+  <meta name="verify-v1" content="Gttw+xMz4t8wDmPbr9UP93eyfzVzp4EBZ5o3i5KCrr4=" />
+  <meta content="JP Meijers" name="author" />
+  <meta http-equiv="Refresh" content="300; url=http://weather.sun.ac.za/mobile" />
+  <title>Mobile Weather</title>
+  <style type="text/css">
+<!--
+.style7 {
+	font-size: x-large;
+	font-weight: bold;
+}
+.style8 {font-size: small}
+.style10 {font-size: large}
+-->
+  </style>
+</head>
+
+<body style="color: rgb(0, 0, 0); background-color: rgb(252, 243, 209);" alink="#000099" link="#000099" vlink="#990099">
+  <font face="Arial, Helvetica, sans-serif" class="style7">Stellenbosch Weather</font>  <br />
+  <font face="Arial, Helvetica, sans-serif"><a href="http://weather.sun.ac.za/full.php" class="style8">Go to main website </a><br />
+<span class="style10"><br />
+<strong>Current Weather</strong>

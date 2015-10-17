@@ -1,0 +1,11 @@
+public class ArgumentClinic 
+{
+  public static void main (String[] args)
+  {
+    String temp = "";
+    temp += args[0];
+    temp += " is having an argument with ";
+    temp += args[1];
+    System.out.println(temp);
+  }
+}

@@ -1,0 +1,3 @@
+random order: NlgN
+increasing order: NlgN
+decreasing order: N^2

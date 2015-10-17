@@ -1,0 +1,12 @@
+public class Erlang
+{
+  public static double recErlang(int n, double p)
+  {
+    
+  }
+  
+  public static double nonrecErlang(int n, double p)
+  {
+    
+  }
+}

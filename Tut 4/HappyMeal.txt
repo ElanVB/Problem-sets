@@ -1,0 +1,3 @@
+Best case: N checks
+Worst case: infinite checks
+Average case: N(Euler-Mascheroni's Constant - lg(N-1)) checks

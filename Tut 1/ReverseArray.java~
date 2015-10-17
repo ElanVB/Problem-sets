@@ -1,0 +1,12 @@
+public class ReverseArray
+{
+  public static void main(String[] args)
+  {
+    double[] a = new Double[args.length];
+    
+    for(int i = 0; i < args.length - 1; i++)
+    {
+      a[i] = args[args.length - i];
+    }
+  }
+}

@@ -1,0 +1,35 @@
+import java.math.*;
+public class CoinToss
+{
+ public static void main (String[] args)
+ {
+   int currentheads = 0, prevheads = 0;
+   int alice = 0, bob = 0;
+   int aliceWins = 0;
+   
+   for(int i = 0; i < Integer.parseInt(args[0]); i++)
+   {
+     while (currentheads == 0 || prevheads == 0)
+     {
+       alice++;
+       currentheads = (int) Math.random() * 2;
+       prevheads = (int) Math.random() * 2;
+     }
+     
+     while ((currentheads == 0 || prevheads == 0) && (currentheads == 1 || prevheads == 1))
+     {
+       bob++;
+       currentheads = (int) Math.random() * 2;
+       prevheads = (int) Math.random() * 2;
+     }
+     
+     if(alice < bob)
+     {
+       aliceWins++;
+     }
+   }
+   
+   System.out.println((double) aliceWins/ Double.parseDouble(args[0]));
+   
+ }
+}
